@@ -1,0 +1,246 @@
+/*Jquery effect*/
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #CCCCFF;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+
+.services {
+    width: 150px;
+    height: 100px;
+    background-color: #e0e0e0;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.service_p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.layout_padding {
+    padding: 60px 0;
+}
+
+.services_section {
+    background-color: #f2f2f2;
+}
+
+.services_taital {
+    text-align: center;
+    color: #333;
+}
+
+.services_text {
+    text-align: center;
+    color: #666;
+}
+
+.services_section_2 {
+    margin-top: 30px;
+}
+
+.services_img {
+    width: 100%;
+}
+
+.btn_main {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn_main a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn_main.active a {
+    background-color: #333;
+}
+
+.about_section {
+    background-color: #fff;
+}
+
+.about_taital_main {
+    padding: 20px;
+}
+
+.about_taital {
+    color: #333;
+}
+
+.about_text {
+    color: #666;
+}
+
+.readmore_bt a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about_img {
+    width: 100%;
+}
+
+.blog_section {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.blog_taital {
+    color: #333;
+}
+
+.blog_text {
+    color: #666;
+}
+
+.play_icon_main {
+    margin-top: 20px;
+}
+
+.play_icon img {
+    width: 50px;
+}
+
+.client_section {
+    background-color: #fff;
+}
+
+.client_taital {
+    text-align: center;
+    color: #333;
+}
+
+.client_section_2 {
+    margin-top: 30px;
+}
+
+.carousel-inner {
+    text-align: left;
+}
+
+.client_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_left {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.lorem_text {
+    color: #666;
+}
+
+.box_right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.client_taital_left {
+    display: flex;
+    align-items: center;
+}
+
+.client_img img {
+    width: 500px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.quick_icon img {
+    width: 20px;
+}
+
+.client_taital_right {
+    text-align: right;
+}
+
+.client_name {
+    color: #333;
+}
+
+.customer_text {
+    color: #666;
+}
+
+.choose_section {
+    background-color: #f2f2f2;
+}
+
+.choose_taital {
+    text-align: center;
+    color: #333;
+}
+
+.choose_text {
+    text-align: center;
+    color: #666;
+
+}
+
+.read_bt_1 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.newsletter_box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.let_text {
+    color: #333;
+}
+
+.getquote_bt a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}

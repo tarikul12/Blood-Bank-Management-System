@@ -1,0 +1,45 @@
+.h2 {
+    color: #333333;
+    text-align: center;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+.input-box input {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-box input:focus {
+    outline: none;
+    border-color: #3498db; 
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); 
+}
+
+
+#submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ #submit:hover {
+    background-color: #45a049;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+} 
+

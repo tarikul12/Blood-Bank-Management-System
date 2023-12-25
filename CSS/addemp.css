@@ -1,0 +1,79 @@
+
+.h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#denger {
+    color: red;
+    font-weight: bold;
+}
+
+#success {
+    color: green;
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.container td {
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"],
+.inputrequestbutton,
+.inputrequestreturn {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+.inputrequestbutton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inputrequestreturn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.inputrequestreturn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.p td {
+    padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .container td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .p td {
+        padding-top: 10px;
+    }
+}

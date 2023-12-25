@@ -1,0 +1,33 @@
+
+.container {
+    width: 30%;
+}
+
+h2 {
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.inputbutton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#denger {
+    color: blue;
+}
+
+#success {
+    color: green;
+}
+

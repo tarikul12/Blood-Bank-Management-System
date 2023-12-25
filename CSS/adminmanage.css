@@ -1,0 +1,63 @@
+
+.flex-container-form_header {
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+}
+
+#form_header {
+    font-size: 24px;
+}
+
+#denger {
+    color: red;
+    font-weight: bold;
+}
+
+#success {
+    color: green;
+    font-weight: bold;
+}
+
+.container {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container > .container {
+    flex: 1;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
